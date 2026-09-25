@@ -1,2 +1,56 @@
 # therapeace-massage-website
 Responsive massage therapy business website
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+    <title>Therapeace Massage</title>
+</head>
+<body>
+
+    <header>
+        <h1>Therapeace Massage</h1>
+        <p>Relax, Restore and Rebalance</p>
+
+        <nav aria-label="Main navigation">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <h2>Welcome to Therapeace Massage</h2>
+            <p>Your space for relaxation and recovery.</p>
+        </section>
+
+        <section id="about">
+            <h2>About Us</h2>
+            <p>Learn more about our massage therapy services.</p>
+        </section>
+
+        <section id="services">
+            <h2>Our Services</h2>
+            <p>Sports Massage</p>
+            <p>Deep Tissue Massage</p>
+            <p>Relaxation Massage</p>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>Contact details and booking information
+               coming soon.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>Therapeace Massage</p>
+    </footer>
+
+</body>
+</html>
