@@ -201,15 +201,30 @@
         </section>
 
         <section id="contact">
-            <h2>Contact Us</h2>
-            <p>Contact details and booking information
-               coming soon.</p>
-        </section>
+    <h2>Contact & Booking</h2>
+
+    <form id="contact-form">
+
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name">
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email">
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="5"></textarea>
+
+        <button type="submit">Send Enquiry</button>
+
+        <p id="form-message"></p>
+
+    </form>
+</section>
     </main>
 
     <footer>
         <p>Therapeace Massage</p>
     </footer>
-
+<script src="script.js"></script>
 </body>
 </html>
