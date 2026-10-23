@@ -105,7 +105,15 @@ footer {
 .service-card p {
     line-height: 1.6;
 }
-@media (max-width: 768px) {
+@media (max-width: 768px).price-list {
+    flex-direction: column;
+    align-items: center;
+}
+
+.price-item {
+    width: 100%;
+    max-width: 400px;
+} {
 
     nav a {
         display: block;
@@ -133,4 +141,31 @@ footer {
     section {
         padding: 40px 20px;
     }
+}
+#prices {
+    text-align: center;
+}
+
+.price-list {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.price-item {
+    background-color: white;
+    padding: 25px;
+    border-radius: 10px;
+    width: 200px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+}
+
+.price-item h3 {
+    margin-bottom: 10px;
+}
+
+.price-item p {
+    font-size: 1.4rem;
+    font-weight: bold;
 }
