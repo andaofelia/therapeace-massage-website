@@ -74,3 +74,19 @@ In development.
 This is my first website development project,
 and I will continue updating it as I learn
 new skills and implement additional features.
+
+## Testing
+
+The website was tested on desktop and mobile screen sizes.
+
+The following features were checked:
+
+- Navigation links
+- Responsive layout
+- Service cards
+- Price section
+- Booking button
+- Contact form validation
+- Mobile compatibility
+
+The main features worked as expected after testing.
