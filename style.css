@@ -79,3 +79,29 @@ footer {
 .booking-button:hover {
     background-color: #555;
 }
+#services {
+    text-align: center;
+}
+
+.services-container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.service-card {
+    background-color: white;
+    padding: 25px;
+    border-radius: 10px;
+    width: 30%;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+}
+
+.service-card h3 {
+    margin-bottom: 15px;
+}
+
+.service-card p {
+    line-height: 1.6;
+}
